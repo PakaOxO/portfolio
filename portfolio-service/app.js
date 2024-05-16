@@ -22,6 +22,7 @@ app.get("/post", function (req, res) {
   }
 
   res.send(result);
+  //
 });
 
 // 서버 동작중인 표시
