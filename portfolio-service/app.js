@@ -13,6 +13,7 @@ app.get("/", function (req, res) {
 app.get("/post", function (req, res) {
   const result = {
     id: null,
+    pw: null,
   };
 
   const sendId = +req.query.id;
