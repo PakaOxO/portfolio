@@ -6,7 +6,7 @@ app.set("host", process.env.HOST || "0.0.0.0"); // 아이피 설정
 
 // 루트 접속시 아이피 출력
 app.get("/", function (req, res) {
-  res.send("접속된 아이피: " + req.ip);
+  res.send("당신의 아이피: " + req.ip);
 });
 
 // 접속 게시글 번호 반환
